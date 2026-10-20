@@ -1,12 +1,7 @@
 {
 	"name": "rmcopilot",
-	"compatibility_date": "2025-10-08",
-	"compatibility_flags": ["nodejs_compat"],
-	"main": "./dist/_worker.js/index.js",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
+	"main": "src/index.js",
+	"compatibility_date": "2026-10-20",
 	"observability": {
 		"enabled": true
 	},
@@ -15,6 +10,10 @@
 		{
 			"binding": "LINE_VPC",
 			"service_id": "01a1581c-7d5a-7cb3-96b7-d6bb306b8b1a"
+		},
+		{
+			"binding": "PLATFORM_VPC",
+			"service_id": "01a15843-d530-70e1-abb7-e4961bb1241c"
 		}
 	]
 }
