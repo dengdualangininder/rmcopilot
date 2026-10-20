@@ -10,5 +10,11 @@
 	"observability": {
 		"enabled": true
 	},
-	"upload_source_maps": true
+	"upload_source_maps": true,
+	"vpc_services": [
+		{
+			"binding": "LINE_VPC",
+			"service_id": "01a1581c-7d5a-7cb3-96b7-d6bb306b8b1a"
+		}
+	]
 }
